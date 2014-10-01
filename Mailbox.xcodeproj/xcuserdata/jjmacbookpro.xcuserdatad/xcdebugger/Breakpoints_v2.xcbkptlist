@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mailbox/MailboxViewController.swift"
+            timestampString = "433615625.59445"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "MailboxViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mailbox.MailboxViewController.archiveIcon.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIImageView&gt;"
+                  moduleName = "Mailbox"
+                  urlString = "file:///Users/jjmacbookpro/Dropbox%20(rd.io)/Mine/CodePath/Mailbox/Mailbox/MailboxViewController.swift"
+                  timestampString = "433545564.203482"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "25">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mailbox.MailboxViewController.init (Mailbox.MailboxViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; Mailbox.MailboxViewController"
+                  moduleName = "Mailbox"
+                  urlString = "file:///Users/jjmacbookpro/Dropbox%20(rd.io)/Mine/CodePath/Mailbox/Mailbox/MailboxViewController.swift"
+                  timestampString = "433545564.20375"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mailbox.MailboxViewController.init (Mailbox.MailboxViewController.Type)() -&gt; Mailbox.MailboxViewController"
+                  moduleName = "Mailbox"
+                  urlString = "file:///Users/jjmacbookpro/Dropbox%20(rd.io)/Mine/CodePath/Mailbox/Mailbox/MailboxViewController.swift"
+                  timestampString = "433545564.204163"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mailbox.MailboxViewController.init (Mailbox.MailboxViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; Mailbox.MailboxViewController"
+                  moduleName = "Mailbox"
+                  urlString = "file:///Users/jjmacbookpro/Dropbox%20(rd.io)/Mine/CodePath/Mailbox/Mailbox/MailboxViewController.swift"
+                  timestampString = "433545564.20441"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "118">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mailbox/MailboxViewController.swift"
+            timestampString = "433752775.963441"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "didReceiveMemoryWarning()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

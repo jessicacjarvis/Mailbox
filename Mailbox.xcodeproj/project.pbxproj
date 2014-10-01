@@ -11,8 +11,11 @@
 		615BE81219D3AE8200CDF48B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615BE81119D3AE8200CDF48B /* ViewController.swift */; };
 		615BE81519D3AE8200CDF48B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615BE81319D3AE8200CDF48B /* Main.storyboard */; };
 		615BE81719D3AE8200CDF48B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615BE81619D3AE8200CDF48B /* Images.xcassets */; };
-		615BE81A19D3AE8200CDF48B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 615BE81819D3AE8200CDF48B /* LaunchScreen.xib */; };
 		615BE82619D3AE8200CDF48B /* MailboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615BE82519D3AE8200CDF48B /* MailboxTests.swift */; };
+		615BE83019D3C55400CDF48B /* MailboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615BE82F19D3C55400CDF48B /* MailboxViewController.swift */; };
+		615BE83219D52AD900CDF48B /* IndividualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615BE83119D52AD900CDF48B /* IndividualViewController.swift */; };
+		61D0C71219D78AB700C8CC2D /* ResheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D0C71119D78AB700C8CC2D /* ResheduleViewController.swift */; };
+		61D0C71419D78E0200C8CC2D /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D0C71319D78E0200C8CC2D /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,10 +35,13 @@
 		615BE81119D3AE8200CDF48B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		615BE81419D3AE8200CDF48B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		615BE81619D3AE8200CDF48B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		615BE81919D3AE8200CDF48B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		615BE81F19D3AE8200CDF48B /* MailboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		615BE82419D3AE8200CDF48B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		615BE82519D3AE8200CDF48B /* MailboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailboxTests.swift; sourceTree = "<group>"; };
+		615BE82F19D3C55400CDF48B /* MailboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailboxViewController.swift; sourceTree = "<group>"; };
+		615BE83119D52AD900CDF48B /* IndividualViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndividualViewController.swift; sourceTree = "<group>"; };
+		61D0C71119D78AB700C8CC2D /* ResheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResheduleViewController.swift; sourceTree = "<group>"; };
+		61D0C71319D78E0200C8CC2D /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +86,11 @@
 				615BE80F19D3AE8200CDF48B /* AppDelegate.swift */,
 				615BE81119D3AE8200CDF48B /* ViewController.swift */,
 				615BE81319D3AE8200CDF48B /* Main.storyboard */,
+				61D0C71319D78E0200C8CC2D /* ListViewController.swift */,
+				61D0C71119D78AB700C8CC2D /* ResheduleViewController.swift */,
+				615BE83119D52AD900CDF48B /* IndividualViewController.swift */,
+				615BE82F19D3C55400CDF48B /* MailboxViewController.swift */,
 				615BE81619D3AE8200CDF48B /* Images.xcassets */,
-				615BE81819D3AE8200CDF48B /* LaunchScreen.xib */,
 				615BE80D19D3AE8200CDF48B /* Supporting Files */,
 			);
 			path = Mailbox;
@@ -193,7 +202,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				615BE81519D3AE8200CDF48B /* Main.storyboard in Resources */,
-				615BE81A19D3AE8200CDF48B /* LaunchScreen.xib in Resources */,
 				615BE81719D3AE8200CDF48B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +221,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				615BE81219D3AE8200CDF48B /* ViewController.swift in Sources */,
+				615BE83219D52AD900CDF48B /* IndividualViewController.swift in Sources */,
+				61D0C71419D78E0200C8CC2D /* ListViewController.swift in Sources */,
 				615BE81019D3AE8200CDF48B /* AppDelegate.swift in Sources */,
+				615BE83019D3C55400CDF48B /* MailboxViewController.swift in Sources */,
+				61D0C71219D78AB700C8CC2D /* ResheduleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,14 +254,6 @@
 				615BE81419D3AE8200CDF48B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		615BE81819D3AE8200CDF48B /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				615BE81919D3AE8200CDF48B /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				INFOPLIST_FILE = Mailbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				INFOPLIST_FILE = Mailbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +411,7 @@
 				615BE82B19D3AE8200CDF48B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		615BE82C19D3AE8200CDF48B /* Build configuration list for PBXNativeTarget "MailboxTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +420,7 @@
 				615BE82E19D3AE8200CDF48B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
